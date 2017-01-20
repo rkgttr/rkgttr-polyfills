@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "rkgttr-polyfills",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Collection of polyfills I frequently use.",
   "repository": "rkgttr/rkgttr-polyfills",
   "author": "Erik Guittiere",
@@ -38,7 +38,7 @@
     "rkgttr-consolepolyfill": "^0.0.2",
     "rkgttr-classlistpolyfill": "^0.0.2",
     "rkgttr-arrayincludespolyfill": "^0.0.2",
-    "rkgttr-arrayfrompolyfill": "^0.0.3"
+    "rkgttr-arrayfrompolyfill": "^0.0.4"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
