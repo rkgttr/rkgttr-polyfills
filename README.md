@@ -1,41 +1,34 @@
-# [rkgttr-poyfills](https://github.com/rkgttr/rkgttr-poyfills)
+# [rkgttr-polyfills](https://github.com/rkgttr/rkgttr-polyfills)
 
-[![NPM version](http://img.shields.io/npm/v/rkgttr-poyfills.svg?style=flat-square)](https://www.npmjs.com/package/rkgttr-poyfills)
-[![NPM downloads](http://img.shields.io/npm/dm/rkgttr-poyfills.svg?style=flat-square)](https://www.npmjs.com/package/rkgttr-poyfills)
-[![Build Status](http://img.shields.io/travis/rkgttr/rkgttr-poyfills/master.svg?style=flat-square)](https://travis-ci.org/rkgttr/rkgttr-poyfills)
-[![Coverage Status](https://img.shields.io/coveralls/rkgttr/rkgttr-poyfills.svg?style=flat-square)](https://coveralls.io/rkgttr/rkgttr-poyfills)
-[![Dependency Status](http://img.shields.io/david/rkgttr/rkgttr-poyfills.svg?style=flat-square)](https://david-dm.org/rkgttr/rkgttr-poyfills)
+[![NPM version](http://img.shields.io/npm/v/rkgttr-polyfills.svg?style=flat-square)](https://www.npmjs.com/package/rkgttr-polyfills)
+[![NPM downloads](http://img.shields.io/npm/dm/rkgttr-polyfills.svg?style=flat-square)](https://www.npmjs.com/package/rkgttr-polyfills)
+[![Build Status](http://img.shields.io/travis/rkgttr/rkgttr-polyfills/master.svg?style=flat-square)](https://travis-ci.org/rkgttr/rkgttr-polyfills)
+[![Coverage Status](https://img.shields.io/coveralls/rkgttr/rkgttr-polyfills.svg?style=flat-square)](https://coveralls.io/rkgttr/rkgttr-polyfills)
+[![Dependency Status](http://img.shields.io/david/rkgttr/rkgttr-polyfills.svg?style=flat-square)](https://david-dm.org/rkgttr/rkgttr-polyfills)
 
 > Collection of polyfills I frequently use.
 
 ### How to Install
 
 ```sh
-$ npm install rkgttr-poyfills --save-dev
+$ npm install rkgttr-polyfills --save-dev
 ```
 or
 
 ```sh
-$ yarn add rkgttr-poyfills --dev
+$ yarn add rkgttr-polyfills --dev
 ```
 
 ### Getting Started
 
-Import polyfills as needed:
 
 ```js
-import {ArrayFromPolyfill} from 'rkgttr-polyfills';
-import {ArrayIncludesPolyfill} from 'rkgttr-polyfills';
-import {consolePolyfill} from 'rkgttr-polyfills';
-import {classListPolyfill} from 'rkgttr-polyfills';
-import {matchesPolyfill} from 'rkgttr-polyfills';
-import {mutationObserverPolyfill} from 'rkgttr-polyfills';
-import {weakMapPolyfill} from 'rkgttr-polyfills';
+import * from 'rkgttr-polyfills';
 ```
-or all of them:
+or:
 
 ```js
-import {ArrayFromPolyfill, ArrayIncludesPolyfill, consolePolyfill, classListPolyfill, matchesPolyfill, mutationObserverPolyfill, weakMapPolyfill} from 'rkgttr-polyfills';
+require('rkgttr-polyfills');
 ```
 
 
