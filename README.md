@@ -23,7 +23,7 @@ $ yarn add rkgttr-polyfills --dev
 
 
 ```js
-import * from 'rkgttr-polyfills';
+import 'rkgttr-polyfills';
 ```
 or:
 
